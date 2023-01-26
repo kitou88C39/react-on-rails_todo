@@ -7,16 +7,16 @@
 #   Character.create(name: "Luke", movie: movies.first)
 SAMPLE_TODOS = [
     {
-        name:"Going around the world",
+      name: 'Going around the world',
     },
     {
-        name:"graduating from the college",
+      name: 'graduating from college'
     },
     {
-        name:"publishing a book",
-    },
-]
-
-SAMPLE_TODOS.each do |todo| 
+      name: 'publishing a book',
+    }
+  ]
+  
+  SAMPLE_TODOS.each do |todo|
     Todo.create(todo)
-end
+  end
